@@ -6,6 +6,8 @@ local map = vim.api.nvim_set_keymap
 -- Normal --
 map("n", "0", "$", opts)
 map("n", "1", "0", opts)
+map("n", "j", "gj", opts)
+map("n", "k", "gk", opts)
 
 -- Nvim-tree
 map("n", "<leader>n", ":NvimTreeToggle<cr>", opts)
